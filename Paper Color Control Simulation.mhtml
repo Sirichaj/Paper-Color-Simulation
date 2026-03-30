@@ -1,0 +1,624 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/apatchat/Downloads/artifact-f88280b1-8e69-4d04-a43c-cb52d817d449-1.html
+Subject: Paper Color Control Simulation
+Date: Mon, 30 Mar 2026 08:49:05 +0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--pSJVNKr89YxEW1asgNu0blWL7PNTjrQXYNz4M8JRzx----"
+
+
+------MultipartBoundary--pSJVNKr89YxEW1asgNu0blWL7PNTjrQXYNz4M8JRzx----
+Content-Type: text/html
+Content-ID: <frame-F6864E7A56A15B217E74C76841707D17@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/apatchat/Downloads/artifact-f88280b1-8e69-4d04-a43c-cb52d817d449-1.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-f3b223fb-9c69-4cc2-b200-77e3ec7a3999@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7f2dcb73-695d-4497=
+-8219-5774bc125b79@mhtml.blink" />
+                           =20
+                            <meta name=3D"viewport" content=3D"width=3Ddevi=
+ce-width, initial-scale=3D1.0">
+						=09
+                        </head>
+                        <body>
+                           =20
+
+
+ =20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+  <title>Paper Color Control Simulation</title>
+ =20
+
+
+
+<h1>=F0=9F=8E=A8 Paper Color Control Simulation</h1>
+<p class=3D"subtitle">=E0=B8=81=E0=B8=A3=E0=B8=AD=E0=B8=81=E0=B8=84=E0=B9=
+=88=E0=B8=B2=E0=B8=AA=E0=B8=B5=E0=B8=9B=E0=B8=B1=E0=B8=88=E0=B8=88=E0=B8=B8=
+=E0=B8=9A=E0=B8=B1=E0=B8=99=E0=B9=81=E0=B8=A5=E0=B8=B0=E0=B8=84=E0=B9=88=E0=
+=B8=B2 Target =E0=B9=80=E0=B8=9E=E0=B8=B7=E0=B9=88=E0=B8=AD=E0=B8=88=E0=B8=
+=B3=E0=B8=A5=E0=B8=AD=E0=B8=87=E0=B8=81=E0=B8=B2=E0=B8=A3=E0=B8=9B=E0=B8=A3=
+=E0=B8=B1=E0=B8=9A=E0=B8=AA=E0=B8=B5 (CIELAB)</p>
+
+<div class=3D"layout">
+
+  <!-- =E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=
+=95=90=E2=95=90=E2=95=90 LEFT: INPUT FORM =E2=95=90=E2=95=90=E2=95=90=E2=95=
+=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90 -->
+  <div>
+    <div class=3D"card">
+      <div class=3D"card-title">=E2=9A=99=EF=B8=8F =E0=B8=95=E0=B8=B1=E0=B9=
+=89=E0=B8=87=E0=B8=84=E0=B9=88=E0=B8=B2 Simulation</div>
+
+      <!-- Current Color -->
+      <div class=3D"section-label">=F0=9F=8E=A8 =E0=B8=84=E0=B9=88=E0=B8=B2=
+=E0=B8=AA=E0=B8=B5=E0=B8=9B=E0=B8=B1=E0=B8=88=E0=B8=88=E0=B8=B8=E0=B8=9A=E0=
+=B8=B1=E0=B8=99 (Current)</div>
+      <div class=3D"input-row">
+        <div class=3D"input-group">
+          <label>L (=E0=B8=84=E0=B8=A7=E0=B8=B2=E0=B8=A1=E0=B8=AA=E0=B8=A7=
+=E0=B9=88=E0=B8=B2=E0=B8=87)</label>
+          <input id=3D"cur_L" class=3D"l-input" type=3D"number" value=3D"85=
+" step=3D"0.1" placeholder=3D"0=E2=80=93100">
+        </div>
+        <div class=3D"input-group">
+          <label>a (=E0=B9=81=E0=B8=94=E0=B8=87 / =E0=B9=80=E0=B8=82=E0=B8=
+=B5=E0=B8=A2=E0=B8=A7)</label>
+          <input id=3D"cur_a" class=3D"a-input" type=3D"number" value=3D"1"=
+ step=3D"0.1" placeholder=3D"-128=E2=80=93127">
+        </div>
+        <div class=3D"input-group">
+          <label>b (=E0=B9=80=E0=B8=AB=E0=B8=A5=E0=B8=B7=E0=B8=AD=E0=B8=87 =
+/ =E0=B8=99=E0=B9=89=E0=B8=B3=E0=B9=80=E0=B8=87=E0=B8=B4=E0=B8=99)</label>
+          <input id=3D"cur_b" class=3D"b-input" type=3D"number" value=3D"8"=
+ step=3D"0.1" placeholder=3D"-128=E2=80=93127">
+        </div>
+      </div>
+
+      <!-- Target Color -->
+      <div class=3D"section-label">=F0=9F=8E=AF =E0=B8=84=E0=B9=88=E0=B8=B2=
+=E0=B8=AA=E0=B8=B5 Target</div>
+      <div class=3D"input-row">
+        <div class=3D"input-group">
+          <label>L (=E0=B8=84=E0=B8=A7=E0=B8=B2=E0=B8=A1=E0=B8=AA=E0=B8=A7=
+=E0=B9=88=E0=B8=B2=E0=B8=87)</label>
+          <input id=3D"tgt_L" class=3D"l-input" type=3D"number" value=3D"90=
+" step=3D"0.1" placeholder=3D"0=E2=80=93100">
+        </div>
+        <div class=3D"input-group">
+          <label>a (=E0=B9=81=E0=B8=94=E0=B8=87 / =E0=B9=80=E0=B8=82=E0=B8=
+=B5=E0=B8=A2=E0=B8=A7)</label>
+          <input id=3D"tgt_a" class=3D"a-input" type=3D"number" value=3D"0"=
+ step=3D"0.1" placeholder=3D"-128=E2=80=93127">
+        </div>
+        <div class=3D"input-group">
+          <label>b (=E0=B9=80=E0=B8=AB=E0=B8=A5=E0=B8=B7=E0=B8=AD=E0=B8=87 =
+/ =E0=B8=99=E0=B9=89=E0=B8=B3=E0=B9=80=E0=B8=87=E0=B8=B4=E0=B8=99)</label>
+          <input id=3D"tgt_b" class=3D"b-input" type=3D"number" value=3D"0"=
+ step=3D"0.1" placeholder=3D"-128=E2=80=93127">
+        </div>
+      </div>
+
+      <!-- Parameters -->
+      <div class=3D"section-label">=F0=9F=94=A7 =E0=B8=9E=E0=B8=B2=E0=B8=A3=
+=E0=B8=B2=E0=B8=A1=E0=B8=B4=E0=B9=80=E0=B8=95=E0=B8=AD=E0=B8=A3=E0=B9=8C=E0=
+=B8=81=E0=B8=B2=E0=B8=A3=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</div>
+      <div class=3D"extra-row">
+        <div class=3D"input-group">
+          <label>Violet (0=E2=80=9320)</label>
+          <input id=3D"violet" type=3D"number" value=3D"2" min=3D"0" max=3D=
+"20" step=3D"0.1">
+        </div>
+        <div class=3D"input-group">
+          <label>UV (0=E2=80=9320)</label>
+          <input id=3D"uv" type=3D"number" value=3D"8" min=3D"0" max=3D"20"=
+ step=3D"0.1">
+        </div>
+        <div class=3D"input-group">
+          <label>Steps (1=E2=80=93100)</label>
+          <input id=3D"steps" type=3D"number" value=3D"20" min=3D"1" max=3D=
+"100" step=3D"1">
+        </div>
+      </div>
+
+      <!-- Color Preview -->
+      <div class=3D"color-preview-row">
+        <div class=3D"preview-box" id=3D"preview-cur" style=3D"background: =
+rgb(221, 211, 197);">
+          <span>Current</span>
+          <span id=3D"preview-cur-val" style=3D"font-size:0.65rem; margin-t=
+op:3px">L=3D85 a=3D1 b=3D8</span>
+        </div>
+        <div class=3D"preview-arrow">=E2=86=92</div>
+        <div class=3D"preview-box" id=3D"preview-tgt" style=3D"background: =
+rgb(226, 226, 226);">
+          <span>Target</span>
+          <span id=3D"preview-tgt-val" style=3D"font-size:0.65rem; margin-t=
+op:3px">L=3D90 a=3D0 b=3D0</span>
+        </div>
+      </div>
+
+      <button class=3D"btn-run">
+        =E2=96=B6 Run Simulation
+      </button>
+      <button class=3D"btn-reset">
+        =E2=86=BA Reset =E0=B8=84=E0=B9=88=E0=B8=B2=E0=B9=80=E0=B8=A3=E0=B8=
+=B4=E0=B9=88=E0=B8=A1=E0=B8=95=E0=B9=89=E0=B8=99
+      </button>
+    </div>
+
+    <!-- Legend -->
+    <div class=3D"legend" style=3D"margin-top:16px;">
+      <div class=3D"legend-item">
+        <div class=3D"legend-dot" style=3D"background:#4ade80"></div>
+        =CE=94E &lt; 2 =E2=86=92 =E0=B8=94=E0=B8=B5=E0=B8=A1=E0=B8=B2=E0=B8=
+=81
+      </div>
+      <div class=3D"legend-item">
+        <div class=3D"legend-dot" style=3D"background:#facc15"></div>
+        =CE=94E 2=E2=80=935 =E2=86=92 =E0=B8=9E=E0=B8=AD=E0=B9=83=E0=B8=8A=
+=E0=B9=89
+      </div>
+      <div class=3D"legend-item">
+        <div class=3D"legend-dot" style=3D"background:#f87171"></div>
+        =CE=94E &gt; 5 =E2=86=92 =E0=B8=95=E0=B9=89=E0=B8=AD=E0=B8=87=E0=B8=
+=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A
+      </div>
+    </div>
+  </div>
+
+  <!-- =E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=
+=95=90=E2=95=90=E2=95=90 RIGHT: RESULT =E2=95=90=E2=95=90=E2=95=90=E2=95=90=
+=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90 -->
+  <div class=3D"right-panel">
+
+    <!-- Summary -->
+    <div class=3D"card">
+      <div class=3D"card-title">=F0=9F=93=8A =E0=B8=9C=E0=B8=A5=E0=B8=A5=E0=
+=B8=B1=E0=B8=9E=E0=B8=98=E0=B9=8C=E0=B8=AA=E0=B8=B8=E0=B8=94=E0=B8=97=E0=B9=
+=89=E0=B8=B2=E0=B8=A2</div>
+      <div class=3D"summary-grid">
+        <div class=3D"summary-box">
+          <div class=3D"s-label">L =E0=B8=AA=E0=B8=B8=E0=B8=94=E0=B8=97=E0=
+=B9=89=E0=B8=B2=E0=B8=A2</div>
+          <div class=3D"s-value" id=3D"res-L" style=3D"color:#facc15">96.20=
+</div>
+        </div>
+        <div class=3D"summary-box">
+          <div class=3D"s-label">a =E0=B8=AA=E0=B8=B8=E0=B8=94=E0=B8=97=E0=
+=B9=89=E0=B8=B2=E0=B8=A2</div>
+          <div class=3D"s-value" id=3D"res-a" style=3D"color:#f87171">2.20<=
+/div>
+        </div>
+        <div class=3D"summary-box">
+          <div class=3D"s-label">b =E0=B8=AA=E0=B8=B8=E0=B8=94=E0=B8=97=E0=
+=B9=89=E0=B8=B2=E0=B8=A2</div>
+          <div class=3D"s-value" id=3D"res-b" style=3D"color:#60a5fa">0.40<=
+/div>
+        </div>
+        <div class=3D"summary-box">
+          <div class=3D"s-label">=CE=94E =E0=B8=AA=E0=B8=B8=E0=B8=94=E0=B8=
+=97=E0=B9=89=E0=B8=B2=E0=B8=A2</div>
+          <div class=3D"s-value" id=3D"res-dE" style=3D"color:#c084fc">6.59=
+</div>
+        </div>
+      </div>
+
+      <!-- Progress -->
+      <div class=3D"progress-wrap" style=3D"margin-top:16px;">
+        <div class=3D"progress-header">
+          <span>=E0=B8=84=E0=B8=A7=E0=B8=B2=E0=B8=A1=E0=B8=84=E0=B8=B7=E0=
+=B8=9A=E0=B8=AB=E0=B8=99=E0=B9=89=E0=B8=B2=E0=B8=AA=E0=B8=B9=E0=B9=88 Targe=
+t</span>
+          <span id=3D"progress-pct">31%</span>
+        </div>
+        <div class=3D"progress-bar">
+          <div class=3D"progress-fill" id=3D"progress-fill" style=3D"width:=
+ 31%;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div class=3D"card" style=3D"flex:1;">
+      <div class=3D"card-title">=F0=9F=93=8B =E0=B8=95=E0=B8=B2=E0=B8=A3=E0=
+=B8=B2=E0=B8=87=E0=B8=9C=E0=B8=A5=E0=B8=A5=E0=B8=B1=E0=B8=9E=E0=B8=98=E0=B9=
+=8C=E0=B8=97=E0=B8=B8=E0=B8=81 Step</div>
+
+      <div class=3D"table-wrap">
+        <div id=3D"empty-state" class=3D"empty-state" style=3D"display: non=
+e;">
+          <div class=3D"icon">=F0=9F=8E=A8</div>
+          <p>=E0=B8=81=E0=B8=A3=E0=B8=AD=E0=B8=81=E0=B8=84=E0=B9=88=E0=B8=
+=B2=E0=B9=81=E0=B8=A5=E0=B9=89=E0=B8=A7=E0=B8=81=E0=B8=94 <strong>Run Simul=
+ation</strong></p>
+          <p style=3D"margin-top:6px; color:#444;">=E0=B9=80=E0=B8=9E=E0=B8=
+=B7=E0=B9=88=E0=B8=AD=E0=B8=94=E0=B8=B9=E0=B8=9C=E0=B8=A5=E0=B8=A5=E0=B8=B1=
+=E0=B8=9E=E0=B8=98=E0=B9=8C</p>
+        </div>
+
+        <table id=3D"result-table" style=3D"display: table;">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>L</th>
+              <th>a</th>
+              <th>b</th>
+              <th>=CE=94E</th>
+              <th>=E0=B8=AA=E0=B8=96=E0=B8=B2=E0=B8=99=E0=B8=B0</th>
+            </tr>
+          </thead>
+          <tbody id=3D"result-tbody"><tr>
+        <td>1</td>
+        <td class=3D"td-L">85.56</td>
+        <td class=3D"td-a">1.06</td>
+        <td class=3D"td-b">7.62</td>
+        <td class=3D"td-dE">8.88</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr><tr>
+        <td>2</td>
+        <td class=3D"td-L">86.12</td>
+        <td class=3D"td-a">1.12</td>
+        <td class=3D"td-b">7.24</td>
+        <td class=3D"td-dE">8.29</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr><tr>
+        <td>3</td>
+        <td class=3D"td-L">86.68</td>
+        <td class=3D"td-a">1.18</td>
+        <td class=3D"td-b">6.86</td>
+        <td class=3D"td-dE">7.71</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr><tr>
+        <td>4</td>
+        <td class=3D"td-L">87.24</td>
+        <td class=3D"td-a">1.24</td>
+        <td class=3D"td-b">6.48</td>
+        <td class=3D"td-dE">7.15</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr><tr>
+        <td>5</td>
+        <td class=3D"td-L">87.80</td>
+        <td class=3D"td-a">1.30</td>
+        <td class=3D"td-b">6.10</td>
+        <td class=3D"td-dE">6.61</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr><tr>
+        <td>6</td>
+        <td class=3D"td-L">88.36</td>
+        <td class=3D"td-a">1.36</td>
+        <td class=3D"td-b">5.72</td>
+        <td class=3D"td-dE">6.10</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr><tr>
+        <td>7</td>
+        <td class=3D"td-L">88.92</td>
+        <td class=3D"td-a">1.42</td>
+        <td class=3D"td-b">5.34</td>
+        <td class=3D"td-dE">5.63</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr><tr>
+        <td>8</td>
+        <td class=3D"td-L">89.48</td>
+        <td class=3D"td-a">1.48</td>
+        <td class=3D"td-b">4.96</td>
+        <td class=3D"td-dE">5.20</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr><tr>
+        <td>9</td>
+        <td class=3D"td-L">90.04</td>
+        <td class=3D"td-a">1.54</td>
+        <td class=3D"td-b">4.58</td>
+        <td class=3D"td-dE">4.83</td>
+        <td><span class=3D"status-warn">=E2=9A=A0=EF=B8=8F =E0=B8=9E=E0=B8=
+=AD=E0=B9=83=E0=B8=8A=E0=B9=89</span></td></tr><tr>
+        <td>10</td>
+        <td class=3D"td-L">90.60</td>
+        <td class=3D"td-a">1.60</td>
+        <td class=3D"td-b">4.20</td>
+        <td class=3D"td-dE">4.53</td>
+        <td><span class=3D"status-warn">=E2=9A=A0=EF=B8=8F =E0=B8=9E=E0=B8=
+=AD=E0=B9=83=E0=B8=8A=E0=B9=89</span></td></tr><tr>
+        <td>11</td>
+        <td class=3D"td-L">91.16</td>
+        <td class=3D"td-a">1.66</td>
+        <td class=3D"td-b">3.82</td>
+        <td class=3D"td-dE">4.32</td>
+        <td><span class=3D"status-warn">=E2=9A=A0=EF=B8=8F =E0=B8=9E=E0=B8=
+=AD=E0=B9=83=E0=B8=8A=E0=B9=89</span></td></tr><tr>
+        <td>12</td>
+        <td class=3D"td-L">91.72</td>
+        <td class=3D"td-a">1.72</td>
+        <td class=3D"td-b">3.44</td>
+        <td class=3D"td-dE">4.21</td>
+        <td><span class=3D"status-warn">=E2=9A=A0=EF=B8=8F =E0=B8=9E=E0=B8=
+=AD=E0=B9=83=E0=B8=8A=E0=B9=89</span></td></tr><tr>
+        <td>13</td>
+        <td class=3D"td-L">92.28</td>
+        <td class=3D"td-a">1.78</td>
+        <td class=3D"td-b">3.06</td>
+        <td class=3D"td-dE">4.21</td>
+        <td><span class=3D"status-warn">=E2=9A=A0=EF=B8=8F =E0=B8=9E=E0=B8=
+=AD=E0=B9=83=E0=B8=8A=E0=B9=89</span></td></tr><tr>
+        <td>14</td>
+        <td class=3D"td-L">92.84</td>
+        <td class=3D"td-a">1.84</td>
+        <td class=3D"td-b">2.68</td>
+        <td class=3D"td-dE">4.32</td>
+        <td><span class=3D"status-warn">=E2=9A=A0=EF=B8=8F =E0=B8=9E=E0=B8=
+=AD=E0=B9=83=E0=B8=8A=E0=B9=89</span></td></tr><tr>
+        <td>15</td>
+        <td class=3D"td-L">93.40</td>
+        <td class=3D"td-a">1.90</td>
+        <td class=3D"td-b">2.30</td>
+        <td class=3D"td-dE">4.52</td>
+        <td><span class=3D"status-warn">=E2=9A=A0=EF=B8=8F =E0=B8=9E=E0=B8=
+=AD=E0=B9=83=E0=B8=8A=E0=B9=89</span></td></tr><tr>
+        <td>16</td>
+        <td class=3D"td-L">93.96</td>
+        <td class=3D"td-a">1.96</td>
+        <td class=3D"td-b">1.92</td>
+        <td class=3D"td-dE">4.82</td>
+        <td><span class=3D"status-warn">=E2=9A=A0=EF=B8=8F =E0=B8=9E=E0=B8=
+=AD=E0=B9=83=E0=B8=8A=E0=B9=89</span></td></tr><tr>
+        <td>17</td>
+        <td class=3D"td-L">94.52</td>
+        <td class=3D"td-a">2.02</td>
+        <td class=3D"td-b">1.54</td>
+        <td class=3D"td-dE">5.18</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr><tr>
+        <td>18</td>
+        <td class=3D"td-L">95.08</td>
+        <td class=3D"td-a">2.08</td>
+        <td class=3D"td-b">1.16</td>
+        <td class=3D"td-dE">5.61</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr><tr>
+        <td>19</td>
+        <td class=3D"td-L">95.64</td>
+        <td class=3D"td-a">2.14</td>
+        <td class=3D"td-b">0.78</td>
+        <td class=3D"td-dE">6.08</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr><tr>
+        <td>20</td>
+        <td class=3D"td-L">96.20</td>
+        <td class=3D"td-a">2.20</td>
+        <td class=3D"td-b">0.40</td>
+        <td class=3D"td-dE">6.59</td>
+        <td><span class=3D"status-bad">=E2=9D=8C =E0=B8=95=E0=B9=89=E0=B8=
+=AD=E0=B8=87=E0=B8=9B=E0=B8=A3=E0=B8=B1=E0=B8=9A</span></td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Toast -->
+<div class=3D"toast" id=3D"toast">=E2=9C=85 Simulation =E0=B9=80=E0=B8=AA=
+=E0=B8=A3=E0=B9=87=E0=B8=88=E0=B8=AA=E0=B8=A1=E0=B8=9A=E0=B8=B9=E0=B8=A3=E0=
+=B8=93=E0=B9=8C!</div>
+
+<!-- =E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=
+=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=
+=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=
+=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=
+=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=E2=95=90=
+=E2=95=90 -->
+
+
+
+
+						=09
+                       =20
+                       =20
+                    </body></html>
+------MultipartBoundary--pSJVNKr89YxEW1asgNu0blWL7PNTjrQXYNz4M8JRzx----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7f2dcb73-695d-4497-8219-5774bc125b79@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; margin: 0px; padding: 0px; }
+
+body { font-family: "Segoe UI", sans-serif; background: rgb(15, 15, 26); co=
+lor: rgb(224, 224, 224); padding: 30px 20px; min-height: 100vh; }
+
+h1 { text-align: center; font-size: 1.9rem; color: rgb(192, 132, 252); marg=
+in-bottom: 6px; }
+
+.subtitle { text-align: center; color: rgb(136, 136, 136); font-size: 0.88r=
+em; margin-bottom: 30px; }
+
+.layout { display: grid; grid-template-columns: 340px 1fr; gap: 24px; max-w=
+idth: 1100px; margin: 0px auto; }
+
+@media (max-width: 760px) {
+  .layout { grid-template-columns: 1fr; }
+}
+
+.card { background: rgb(26, 26, 46); border: 1px solid rgb(42, 42, 74); bor=
+der-radius: 16px; padding: 22px; }
+
+.card-title { font-size: 1rem; font-weight: 700; color: rgb(192, 132, 252);=
+ margin-bottom: 18px; display: flex; align-items: center; gap: 8px; border-=
+bottom: 1px solid rgb(42, 42, 74); padding-bottom: 12px; }
+
+.section-label { font-size: 0.78rem; font-weight: 700; text-transform: uppe=
+rcase; letter-spacing: 1px; color: rgb(136, 136, 136); margin: 16px 0px 10p=
+x; }
+
+.input-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10p=
+x; margin-bottom: 4px; }
+
+.input-group { display: flex; flex-direction: column; gap: 5px; }
+
+.input-group label { font-size: 0.78rem; color: rgb(170, 170, 170); }
+
+.input-group input { background: rgb(15, 15, 26); border: 1px solid rgb(51,=
+ 51, 51); border-radius: 8px; padding: 9px 12px; color: rgb(255, 255, 255);=
+ font-size: 1rem; font-weight: 700; text-align: center; width: 100%; transi=
+tion: border-color 0.2s; }
+
+.input-group input::-webkit-outer-spin-button, .input-group input::-webkit-=
+inner-spin-button { appearance: none; }
+
+.input-group input:focus { outline: none; border-color: rgb(192, 132, 252);=
+ }
+
+.input-group input.l-input:focus { border-color: rgb(250, 204, 21); }
+
+.input-group input.a-input:focus { border-color: rgb(248, 113, 113); }
+
+.input-group input.b-input:focus { border-color: rgb(96, 165, 250); }
+
+.input-group input.l-input { color: rgb(250, 204, 21); }
+
+.input-group input.a-input { color: rgb(248, 113, 113); }
+
+.input-group input.b-input { color: rgb(96, 165, 250); }
+
+.extra-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10p=
+x; margin-top: 6px; }
+
+.btn-run { width: 100%; margin-top: 20px; padding: 13px; border-radius: 10p=
+x; border: none; background: linear-gradient(135deg, rgb(124, 58, 237), rgb=
+(192, 132, 252)); color: rgb(255, 255, 255); font-size: 1rem; font-weight: =
+700; cursor: pointer; transition: opacity 0.2s, transform 0.1s; }
+
+.btn-run:hover { opacity: 0.9; }
+
+.btn-run:active { transform: scale(0.98); }
+
+.btn-reset { width: 100%; margin-top: 8px; padding: 10px; border-radius: 10=
+px; border: 1px solid rgb(68, 68, 68); background: transparent; color: rgb(=
+170, 170, 170); font-size: 0.88rem; cursor: pointer; transition: 0.2s; }
+
+.btn-reset:hover { background: rgb(30, 30, 47); color: rgb(255, 255, 255); =
+}
+
+.color-preview-row { display: grid; grid-template-columns: 1fr 40px 1fr; ga=
+p: 8px; align-items: center; margin-top: 18px; }
+
+.preview-box { border-radius: 10px; height: 64px; display: flex; flex-direc=
+tion: column; align-items: center; justify-content: center; font-size: 0.72=
+rem; color: rgba(255, 255, 255, 0.7); font-weight: 600; border: 1px solid r=
+gb(51, 51, 51); transition: background 0.4s; }
+
+.preview-arrow { text-align: center; font-size: 1.3rem; color: rgb(136, 136=
+, 136); }
+
+.right-panel { display: flex; flex-direction: column; gap: 20px; }
+
+.summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: =
+10px; }
+
+@media (max-width: 600px) {
+  .summary-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.summary-box { background: rgb(15, 15, 26); border: 1px solid rgb(42, 42, 7=
+4); border-radius: 10px; padding: 14px 10px; text-align: center; }
+
+.summary-box .s-label { font-size: 0.72rem; color: rgb(136, 136, 136); marg=
+in-bottom: 6px; }
+
+.summary-box .s-value { font-size: 1.5rem; font-weight: 700; }
+
+.progress-wrap { margin-top: 4px; }
+
+.progress-header { display: flex; justify-content: space-between; font-size=
+: 0.78rem; color: rgb(136, 136, 136); margin-bottom: 5px; }
+
+.progress-bar { height: 10px; background: rgb(30, 30, 47); border-radius: 9=
+9px; overflow: hidden; }
+
+.progress-fill { height: 100%; border-radius: 99px; background: linear-grad=
+ient(90deg, rgb(124, 58, 237), rgb(192, 132, 252)); transition: width 0.8s;=
+ width: 0%; }
+
+.table-wrap { overflow: auto; border-radius: 10px; max-height: 380px; }
+
+.table-wrap::-webkit-scrollbar { width: 6px; height: 6px; }
+
+.table-wrap::-webkit-scrollbar-track { background: rgb(26, 26, 46); }
+
+.table-wrap::-webkit-scrollbar-thumb { background: rgb(68, 68, 68); border-=
+radius: 3px; }
+
+table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+
+thead th { background: rgb(42, 26, 63); color: rgb(192, 132, 252); padding:=
+ 10px 14px; text-align: center; font-weight: 700; position: sticky; top: 0p=
+x; z-index: 1; }
+
+tbody tr { transition: background 0.15s; }
+
+tbody tr:nth-child(2n) { background: rgb(22, 22, 42); }
+
+tbody tr:hover { background: rgb(34, 34, 64); }
+
+td { padding: 8px 14px; text-align: center; border-bottom: 1px solid rgb(30=
+, 30, 47); }
+
+.td-L { color: rgb(250, 204, 21); font-weight: 600; }
+
+.td-a { color: rgb(248, 113, 113); font-weight: 600; }
+
+.td-b { color: rgb(96, 165, 250); font-weight: 600; }
+
+.td-dE { color: rgb(192, 132, 252); font-weight: 600; }
+
+.status-good { color: rgb(74, 222, 128); font-weight: 700; }
+
+.status-warn { color: rgb(250, 204, 21); font-weight: 700; }
+
+.status-bad { color: rgb(248, 113, 113); font-weight: 700; }
+
+.empty-state { text-align: center; padding: 60px 20px; color: rgb(85, 85, 8=
+5); }
+
+.empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
+
+.empty-state p { font-size: 0.9rem; }
+
+.legend { display: flex; gap: 16px; flex-wrap: wrap; justify-content: cente=
+r; margin-top: 8px; }
+
+.legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.7=
+8rem; color: rgb(136, 136, 136); }
+
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+.toast { position: fixed; bottom: 24px; right: 24px; background: rgb(42, 26=
+, 63); border: 1px solid rgb(192, 132, 252); border-radius: 10px; padding: =
+12px 20px; font-size: 0.88rem; color: rgb(224, 224, 224); opacity: 0; trans=
+form: translateY(10px); transition: 0.3s; z-index: 999; pointer-events: non=
+e; }
+
+.toast.show { opacity: 1; transform: translateY(0px); }
+
+.input-group input.error { animation: 0.3s ease 0s 1 normal none running sh=
+ake; border-color: rgb(248, 113, 113) !important; }
+
+@keyframes shake {=20
+  0%, 100% { transform: translateX(0px); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+------MultipartBoundary--pSJVNKr89YxEW1asgNu0blWL7PNTjrQXYNz4M8JRzx----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f3b223fb-9c69-4cc2-b200-77e3ec7a3999@mhtml.blink
+
+@charset "utf-8";
+
+body { background-color: white; }
+------MultipartBoundary--pSJVNKr89YxEW1asgNu0blWL7PNTjrQXYNz4M8JRzx------
